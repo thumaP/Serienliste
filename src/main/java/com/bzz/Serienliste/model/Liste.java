@@ -8,6 +8,8 @@ public class Liste {
     private int listID;
     private boolean isPublic;
     private int cntr;
+    private Collection serien;
+
 
     public boolean isPublic() {
         return isPublic;
@@ -41,5 +43,4 @@ public class Liste {
         this.serien = serien;
     }
 
-    private Collection serien;
 }

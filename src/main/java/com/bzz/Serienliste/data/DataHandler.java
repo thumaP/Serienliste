@@ -92,6 +92,7 @@ public class DataHandler {
      * @return the publisherMap
      */
     public static Map<String, Liste> getListemap() {
+
         return listemap;
     }
 
@@ -104,16 +105,16 @@ public class DataHandler {
      */
     private static void readJSON() {
         try {
-            byte[] jsonData = Files.readAllBytes(Paths.get(Config.getProperty("serieJSON")));
+            byte[] jsonData = Files.readAllBytes(Paths.get(Config.getProperty("serie.json")));
             ObjectMapper objectMapper = new ObjectMapper();
-            Serie[] series = objectMapper.readValue(jsonData, Serie[].class);
+            Liste[] listen = objectMapper.readValue(jsonData, Liste[].class);
 
-            for (Serie serie : series) {
-                int serienID = serie.getSeriesID();
-                Liste liste;
+            for (Liste liste : listen) {
+                int listID = liste.getListID();
+                Serie serie;
 
-                if (getListemap().containsKey(serienID)) {
-                    liste = getListemap().get(publisherUUID);
+                if (getListemap().containsKey(listID)) {
+                    liste = getListemap().get(listID);
 
                 }
                 else {
@@ -139,7 +140,7 @@ public class DataHandler {
         Writer writer;
         FileOutputStream fileOutputStream = null;
 
-        String bookPath = Config.getProperty("serieJSON");
+        String bookPath = Config.getProperty("serie.json");
         try {
             fileOutputStream = new FileOutputStream(bookPath);
             writer = new BufferedWriter(new OutputStreamWriter(fileOutputStream, StandardCharsets.UTF_8));
@@ -155,7 +156,7 @@ public class DataHandler {
     private static void readJSON() {
         try {
 
-            byte[] jsonData = Files.readAllBytes(Paths.get(Config.getProperty("bookJSON")));
+            byte[] jsonData = Files.readAllBytes(Paths.get(Config.getProperty("serie.json")));
             ObjectMapper objectMapper = new ObjectMapper();
             Liste[] listen = objectMapper.readValue(jsonData, Liste[].class);
 
