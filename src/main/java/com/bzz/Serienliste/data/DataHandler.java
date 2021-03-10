@@ -88,7 +88,7 @@ public class DataHandler {
     }
 
     /**
-     * gets the publisherMap
+     * gets the publisherMap :
      * @return the publisherMap
      */
     public static Map<String, Liste> getListemap() {
