@@ -8,9 +8,29 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="318ed3ed-9ab8-4d3a-a7aa-586a7751126b" name="Default Changelist" comment="10_03_21-02">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/data/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/data/DataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Liste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,11 +349,16 @@
       <screen x="0" y="0" width="1920" height="917" />
     </state>
     <state x="410" y="0" width="1147" height="917" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.917@0.0.1920.917" timestamp="1615302939638" />
-    <state x="377" y="0" width="1156" height="916" key="CommitChangelistDialog2" timestamp="1615371250933">
+    <state x="377" y="0" width="1045" height="1040" key="CommitChangelistDialog2" timestamp="1615371715665">
       <screen x="0" y="0" width="1918" height="916" />
     </state>
-    <state x="377" y="0" width="1156" height="916" key="CommitChangelistDialog2/0.0.1918.916@0.0.1918.916" timestamp="1615371250933" />
+    <state x="377" y="0" width="1156" height="916" key="CommitChangelistDialog2/0.0.1918.916@0.0.1918.916" timestamp="1615371715665" />
+    <state x="377" y="0" width="1045" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615371539046" />
     <state x="377" y="0" width="1156" height="917" key="CommitChangelistDialog2/0.0.1920.917@0.0.1920.917" timestamp="1615305117737" />
+    <state x="182" y="31" width="1536" height="869" key="DiffContextDialog" timestamp="1615371491244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="182" y="31" width="1536" height="869" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615371491244" />
     <state x="654" y="98" width="636" height="761" key="FileChooserDialogImpl" timestamp="1615370823673">
       <screen x="0" y="0" width="1918" height="916" />
     </state>
@@ -344,10 +369,11 @@
     </state>
     <state x="214" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615304147739" />
     <state x="214" y="0" width="1482" height="917" key="SettingsEditor/0.0.1920.917@0.0.1920.917" timestamp="1615304066142" />
-    <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1615371277525">
-      <screen x="0" y="0" width="1918" height="916" />
+    <state x="355" y="77" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1615371569558">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2/0.0.1918.916@0.0.1918.916" timestamp="1615371277525" />
+    <state x="355" y="77" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615371569558" />
     <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2/0.0.1920.917@0.0.1920.917" timestamp="1615305123525" />
     <state x="683" y="341" width="552" height="241" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615371199741">
       <screen x="0" y="0" width="1918" height="916" />

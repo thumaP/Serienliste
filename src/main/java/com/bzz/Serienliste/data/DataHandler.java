@@ -118,7 +118,7 @@ public class DataHandler {
 
                 }
                 else {
-                    publisher = book.getPublisher();
+                    serie = liste.getSerien().add(serie);
                     getPublisherMap().put(publisherUUID, publisher);
                 }
 

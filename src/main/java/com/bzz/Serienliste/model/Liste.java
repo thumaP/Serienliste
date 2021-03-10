@@ -2,7 +2,7 @@ package com.bzz.Serienliste.model;
 
 import java.util.Collection;
 
-
+//TestKommentar
 public class Liste {
 
     private int listID;
