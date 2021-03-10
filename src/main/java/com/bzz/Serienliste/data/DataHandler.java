@@ -37,13 +37,13 @@ public class DataHandler {
 
     /**
      * reads a single book identified by its uuid
-     * @param bookUUID  the identifier
+     * @param serieID  the identifier
      * @return book-object
      */
-    public static Serie readSerie(String bookUUID) {
+    public static Serie readSerie(String serieID) {
         Serie serie = new Serie();
-        if (getserieMap().containsKey(bookUUID)) {
-            serie = getserieMap().get(bookUUID);
+        if (getserieMap().containsKey(serieID)) {
+            serie = getserieMap().get(serieID);
         }
         return serie;
     }
@@ -53,7 +53,7 @@ public class DataHandler {
      * @param serie  the book to be saved
      */
     public static void saveSerie(Serie serie) {
-        getserieMap().put(serie.getSeriesID(), serie);
+        getserieMap().put(Integer.toString(serie.getSeriesID()), serie);
         writeJSON();
     }
 
@@ -92,11 +92,11 @@ public class DataHandler {
      * @return the publisherMap
      */
     public static Map<String, Liste> getListemap() {
-
         return listemap;
     }
 
     public static void setListemap(Map<String, Liste> listemap) {
+
         DataHandler.listemap = listemap;
     }
 
@@ -151,34 +151,3 @@ public class DataHandler {
     }
 }
 
-
-
-    private static void readJSON() {
-        try {
-
-            byte[] jsonData = Files.readAllBytes(Paths.get(Config.getProperty("serie.json")));
-            ObjectMapper objectMapper = new ObjectMapper();
-            Liste[] listen = objectMapper.readValue(jsonData, Liste[].class);
-
-            for (Serie serie : listen) {
-
-                String publisherUUID = book.getPublisher().getPublisherUUID();
-                Publisher publisher;
-
-                if (getPublisherMap().containsKey(publisherUUID)) {
-                    publisher = getPublisherMap().get(publisherUUID);
-
-                }
-                else {
-                    publisher = book.getPublisher();
-                    getPublisherMap().put(publisherUUID, publisher);
-                }
-
-                book.setPublisher(publisher);
-                getBookMap().put(book.getBookUUID(), book);
-
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }

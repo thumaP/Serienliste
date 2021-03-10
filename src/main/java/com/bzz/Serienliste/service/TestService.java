@@ -29,15 +29,15 @@ public class TestService {
     @Path("test")
     @Produces(MediaType.APPLICATION_JSON)
     public Response test() {
-        /*
-        Map<String, Book> bookMap = DataHandler.getBookMap();
-        Map<String, Publisher> publisherMap = DataHandler.getPublisherMap();
-        Book book = DataHandler.readBook("c746a291-0ef9-4b2a-8268-392b12d636bd");
-        Publisher publisher = DataHandler.readPublisher("606cc4a5-8bfd-4e24-85c1-ecf6b9814712");
-        */
+
+        Map<String, Serie> seriemap = DataHandler.getserieMap();
+        Map<String, Liste> listeMap = DataHandler.getListemap();
+        Serie serie = DataHandler.readSerie("0");
+        Liste liste = DataHandler.readListe("0");
+
         return Response
                 .status(200)
-                //.entity(bookMap)
+                .entity(seriemap)
                 .entity("{\"Data\":\"foobar\"}")
                 .build();
     }
