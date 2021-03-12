@@ -1,15 +1,24 @@
 package com.bzz.Serienliste.data;
 
-
+import com.bzz.Serienliste.model.Kategorie;
 import com.bzz.Serienliste.model.Serie;
 import com.bzz.Serienliste.model.Liste;
 import com.bzz.Serienliste.service.Config;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
 
+import java.awt.print.Book;
 import java.io.*;
+import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,30 +32,54 @@ import java.util.Map;
 
 public class DataHandler {
     private static final DataHandler instance = new DataHandler();
-    private static Map<String, Serie> serieMap;
-    private static Map<String, Liste> listemap;
+
+    private static ArrayList<Serie> serien;
+    private static ArrayList<Kategorie> kategorien;
+    private static ArrayList<Liste> listen;
 
     /**
      * default constructor: defeat instantiation
      */
     private DataHandler() {
-        serieMap = new HashMap<>();
-        listemap = new HashMap<>();
+        Config.getProperty("serieJSON");
+        Config.getProperty("kategorieJSON");
+        Config.getProperty("listeJSON");
+        serien = new ArrayList<Serie>();
+        kategorien = new ArrayList<Kategorie>();
+        listen = new ArrayList<Liste>();
         readJSON();
     }
 
+
     /**
-     * reads a single book identified by its uuid
-     * @param serieID  the identifier
+     * reads a single series identified by its id
+
      * @return book-object
      */
-    public static Serie readSerie(String serieID) {
-        Serie serie = new Serie();
-        if (getserieMap().containsKey(serieID)) {
-            serie = getserieMap().get(serieID);
+
+    public static ArrayList<Serie> readSerien() {
+
+        try {
+            Gson gson = new Gson();
+
+            Type serienListType = new TypeToken<ArrayList<Serie>>(){}.getType();
+            serien = gson.fromJson(String.valueOf(serien), serienListType);
+
+
+
+
+
+            BufferedReader reader = new BufferedReader(new FileReader(Config.getProperty("serieJSON")));
+
+            serien = gson.fromJson(reader, new TypeToken<Serie>(){}.getType());
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        return serie;
+        return null;
     }
+
 
     /**
      * saves a series
@@ -55,6 +88,7 @@ public class DataHandler {
     public static void saveSerie(Serie serie) {
         getserieMap().put(Integer.toString(serie.getSeriesID()), serie);
         writeJSON();
+        String json = new Gson().toJson(serie);
     }
 
     /**
@@ -63,11 +97,11 @@ public class DataHandler {
      * @return publisher-object
      */
     public static Liste readListe(String listID) {
-        Liste liste = new Liste();
+        Liste liste;
         if (getListemap().containsKey(listID)) {
             liste = getListemap().get(listID);
         }
-        return liste;
+        return null;
     }
 
     /**
@@ -84,7 +118,7 @@ public class DataHandler {
      * @return the serieMap
      */
     public static Map<String, Serie> getserieMap() {
-        return serieMap;
+        return null;
     }
 
     /**
@@ -92,43 +126,34 @@ public class DataHandler {
      * @return the publisherMap
      */
     public static Map<String, Liste> getListemap() {
-        return listemap;
+        return null;
     }
 
     public static void setListemap(Map<String, Liste> listemap) {
 
-        DataHandler.listemap = listemap;
+        //DataHandler.listemap = listemap;
     }
 
     /**
      * reads the books and publishers
      */
     private static void readJSON() {
+
         try {
-            byte[] jsonData = Files.readAllBytes(Paths.get(Config.getProperty("serie.json")));
-            ObjectMapper objectMapper = new ObjectMapper();
-            Liste[] listen = objectMapper.readValue(jsonData, Liste[].class);
+            Gson gson = new Gson();
 
-            for (Liste liste : listen) {
-                int listID = liste.getListID();
-                Serie serie;
+            Reader reader = Files.newBufferedReader(Paths.get("serieJSON"));
 
-                if (getListemap().containsKey(listID)) {
-                    liste = getListemap().get(listID);
+            //listemap = gson.fromJson(reader, Map.class);
 
-                }
-                else {
-                    serie = liste.getSerien().add(serie);
-                    getPublisherMap().put(publisherUUID, publisher);
-                }
+            reader.close();
 
-                book.setPublisher(publisher);
-                getserieMap().put(book.getBookUUID(), book);
-
-            }
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
+
+
+
     }
 
     /**
@@ -136,15 +161,19 @@ public class DataHandler {
      *
      */
     private static void writeJSON() {
-        ObjectMapper objectMapper = new ObjectMapper();
-        Writer writer;
-        FileOutputStream fileOutputStream = null;
 
-        String bookPath = Config.getProperty("serie.json");
         try {
-            fileOutputStream = new FileOutputStream(bookPath);
-            writer = new BufferedWriter(new OutputStreamWriter(fileOutputStream, StandardCharsets.UTF_8));
-            objectMapper.writeValue(writer, getserieMap().values());
+            //Examples:
+            Kategorie adventure = new Kategorie("Adventure");
+            Serie fortnite = new Serie(adventure, "Fortnite", "Eine Abenteuer Serie", 12, 7, false);
+
+            serien.add(0, fortnite);
+
+            Gson gson = new Gson();
+            Writer writer = new FileWriter(Config.getProperty("serieJSON"));
+
+            gson.toJson(serien, writer);
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }

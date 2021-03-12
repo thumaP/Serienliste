@@ -32,7 +32,7 @@ public class TestService {
 
         Map<String, Serie> seriemap = DataHandler.getserieMap();
         Map<String, Liste> listeMap = DataHandler.getListemap();
-        Serie serie = DataHandler.readSerie("0");
+        //Serie serie = DataHandler.readSerie("0");
         Liste liste = DataHandler.readListe("0");
 
         return Response

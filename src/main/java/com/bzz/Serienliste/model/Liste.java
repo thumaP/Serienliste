@@ -1,15 +1,24 @@
 package com.bzz.Serienliste.model;
 
 import java.util.Collection;
+import java.util.Map;
 
 //TestKommentar
 public class Liste {
-
+    private String name;
     private int listID;
     private boolean isPublic;
     private int cntr;
-    private Collection serien;
+    private Map serien;
 
+    public Liste(String name, boolean isPublic) {
+        this.name = name;
+        this.isPublic = isPublic;
+    }
+
+    public String getName() { return name; }
+
+    public void setName(String name) { this.name = name; }
 
     public boolean isPublic() {
         return isPublic;
@@ -35,11 +44,11 @@ public class Liste {
         this.cntr = cntr;
     }
 
-    public Collection getSerien() {
+    public Map getSerien() {
         return serien;
     }
 
-    public void setSerien(Collection serien) {
+    public void setSerien(Map serien) {
         this.serien = serien;
     }
 

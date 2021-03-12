@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Bookshelf-0.1.war">
+    <root id="archive" name="Serienliste-1.0.war">
       <element id="artifact" artifact-name="Serienliste:war exploded" />
     </root>
   </artifact>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Serienliste:war exploded" />
+      <artifact name="Serienliste:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -27,10 +27,52 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="318ed3ed-9ab8-4d3a-a7aa-586a7751126b" name="Default Changelist" comment="10_03_21-02">
+    <list default="true" id="318ed3ed-9ab8-4d3a-a7aa-586a7751126b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Kategorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Serienliste_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Serienliste_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Serienliste_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Serienliste_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Serienliste.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Serienliste.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/data/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/data/DataHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/model/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bzz/Serienliste/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/WEB-INF/classes/book.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/WEB-INF/classes/book.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/WEB-INF/classes/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/WEB-INF/classes/books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/WEB-INF/classes/com/bzz/Bookshelf/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/WEB-INF/classes/com/bzz/Bookshelf/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/WEB-INF/classes/com/bzz/Bookshelf/HelloResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/WEB-INF/classes/com/bzz/Bookshelf/HelloResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/WEB-INF/classes/com/bzz/Bookshelf/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/WEB-INF/classes/com/bzz/Bookshelf/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bookshelf-0.1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Serienliste-0.1/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bzz/Serienliste/model/Liste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bzz/Serienliste/model/Liste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bzz/Serienliste/model/Serie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bzz/Serienliste/model/Serie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bzz/Serienliste/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bzz/Serienliste/service/TestService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +117,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Schreibtisch/gson-2.8.6.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.0">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -88,6 +131,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryJson.Main" />
+      <module name="Serienliste" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,157 +200,15 @@
         </option>
       </method>
     </configuration>
-    <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Serienliste-1.0" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Serienliste:war exploded">
-          <settings />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="DOMAIN" value="domain1" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-        <option name="CREDENTIAL_ALIAS" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="GlassFish" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Serienliste:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="GlassFish 5.0.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Serienliste-1.0" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Serienliste:war exploded">
-          <settings />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="DOMAIN" value="domain1" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-        <option name="CREDENTIAL_ALIAS" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="GlassFish" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Serienliste:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="GlassFish Server.GlassFish 5.0.0" />
-      <item itemvalue="GlassFish Server.GlassFish 5.0.2" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -338,41 +246,102 @@
     <MESSAGE value="09_03_21-01" />
     <MESSAGE value="10_03_21-01" />
     <MESSAGE value="10_03_21-02" />
-    <option name="LAST_COMMIT_MESSAGE" value="10_03_21-02" />
+    <MESSAGE value="10_03_21-03" />
+    <option name="LAST_COMMIT_MESSAGE" value="10_03_21-03" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="688" y="177" width="636" height="569" key="#BuildArtifactsBeforeRunChooser" timestamp="1615539845797">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state x="688" y="177" width="636" height="569" key="#BuildArtifactsBeforeRunChooser/0.0.1918.916@0.0.1918.916" timestamp="1615539845797" />
     <state x="677" y="343" width="602" height="263" key="#Glassfish_Server" timestamp="1615302875025">
       <screen x="0" y="0" width="1920" height="917" />
     </state>
     <state x="677" y="343" width="602" height="263" key="#Glassfish_Server/0.0.1920.917@0.0.1920.917" timestamp="1615302875025" />
-    <state x="410" y="0" width="1147" height="917" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615302939638">
-      <screen x="0" y="0" width="1920" height="917" />
+    <state x="581" y="171" width="748" height="702" key="#Inspections" timestamp="1615539277060">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="410" y="0" width="1147" height="917" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.917@0.0.1920.917" timestamp="1615302939638" />
-    <state x="377" y="0" width="1045" height="1040" key="CommitChangelistDialog2" timestamp="1615371715665">
+    <state x="581" y="171" width="748" height="702" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1615539277060" />
+    <state x="410" y="0" width="1147" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615539848726">
       <screen x="0" y="0" width="1918" height="916" />
     </state>
-    <state x="377" y="0" width="1156" height="916" key="CommitChangelistDialog2/0.0.1918.916@0.0.1918.916" timestamp="1615371715665" />
+    <state x="410" y="0" width="1147" height="820" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1918.916@0.0.1918.916" timestamp="1615539848726" />
+    <state x="410" y="0" width="1204" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615463368362" />
+    <state x="410" y="0" width="1147" height="917" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.917@0.0.1920.917" timestamp="1615302939638" />
+    <state x="673" y="49" width="561" height="837" key="#com.intellij.ide.util.MemberChooser" timestamp="1615462970556">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state x="673" y="49" width="561" height="837" key="#com.intellij.ide.util.MemberChooser/0.0.1918.916@0.0.1918.916" timestamp="1615462970556" />
+    <state x="674" y="56" width="561" height="933" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615406425624" />
+    <state x="562" y="150" width="786" height="745" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1615405826505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="150" width="786" height="745" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615405826505" />
+    <state x="377" y="0" width="1045" height="1040" key="CommitChangelistDialog2" timestamp="1615371746002">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state x="377" y="0" width="1156" height="916" key="CommitChangelistDialog2/0.0.1918.916@0.0.1918.916" timestamp="1615371746002" />
     <state x="377" y="0" width="1045" height="1040" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615371539046" />
     <state x="377" y="0" width="1156" height="917" key="CommitChangelistDialog2/0.0.1920.917@0.0.1920.917" timestamp="1615305117737" />
     <state x="182" y="31" width="1536" height="869" key="DiffContextDialog" timestamp="1615371491244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="182" y="31" width="1536" height="869" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615371491244" />
-    <state x="654" y="98" width="636" height="761" key="FileChooserDialogImpl" timestamp="1615370823673">
+    <state x="654" y="98" width="934" height="761" key="FileChooserDialogImpl" timestamp="1615372497270">
       <screen x="0" y="0" width="1918" height="916" />
     </state>
-    <state x="654" y="98" key="FileChooserDialogImpl/0.0.1918.916@0.0.1918.916" timestamp="1615370823673" />
+    <state x="654" y="98" width="934" height="761" key="FileChooserDialogImpl/0.0.1918.916@0.0.1918.916" timestamp="1615372497270" />
     <state x="655" y="98" width="636" height="761" key="FileChooserDialogImpl/0.0.1920.917@0.0.1920.917" timestamp="1615302872333" />
-    <state x="214" y="0" width="1482" height="917" key="SettingsEditor" timestamp="1615304147739">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1850" height="601" key="GridCell.Tab.0.bottom" timestamp="1615539191804">
+      <screen x="0" y="0" width="1918" height="916" />
     </state>
+    <state width="1850" height="601" key="GridCell.Tab.0.bottom/0.0.1918.916@0.0.1918.916" timestamp="1615539191804" />
+    <state width="1852" height="710" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497407" />
+    <state width="1850" height="601" key="GridCell.Tab.0.center" timestamp="1615539191790">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.0.center/0.0.1918.916@0.0.1918.916" timestamp="1615539191790" />
+    <state width="1852" height="710" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497402" />
+    <state width="1850" height="601" key="GridCell.Tab.0.left" timestamp="1615539191787">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.0.left/0.0.1918.916@0.0.1918.916" timestamp="1615539191787" />
+    <state width="1852" height="710" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497401" />
+    <state width="1850" height="601" key="GridCell.Tab.0.right" timestamp="1615539191793">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.0.right/0.0.1918.916@0.0.1918.916" timestamp="1615539191793" />
+    <state width="1852" height="710" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497407" />
+    <state width="1850" height="601" key="GridCell.Tab.1.bottom" timestamp="1615539191815">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.1.bottom/0.0.1918.916@0.0.1918.916" timestamp="1615539191815" />
+    <state width="1852" height="710" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497407" />
+    <state width="1850" height="601" key="GridCell.Tab.1.center" timestamp="1615539191811">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.1.center/0.0.1918.916@0.0.1918.916" timestamp="1615539191811" />
+    <state width="1852" height="710" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497407" />
+    <state width="1850" height="601" key="GridCell.Tab.1.left" timestamp="1615539191807">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.1.left/0.0.1918.916@0.0.1918.916" timestamp="1615539191807" />
+    <state width="1852" height="710" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497407" />
+    <state width="1850" height="601" key="GridCell.Tab.1.right" timestamp="1615539191813">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state width="1850" height="601" key="GridCell.Tab.1.right/0.0.1918.916@0.0.1918.916" timestamp="1615539191813" />
+    <state width="1852" height="710" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615463497407" />
+    <state x="214" y="0" width="1481" height="916" key="SettingsEditor" timestamp="1615372504917">
+      <screen x="0" y="0" width="1918" height="916" />
+    </state>
+    <state x="214" y="0" width="1481" height="916" key="SettingsEditor/0.0.1918.916@0.0.1918.916" timestamp="1615372504917" />
     <state x="214" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615304147739" />
     <state x="214" y="0" width="1482" height="917" key="SettingsEditor/0.0.1920.917@0.0.1920.917" timestamp="1615304066142" />
-    <state x="355" y="77" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1615371569558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2" timestamp="1615371848167">
+      <screen x="0" y="0" width="1918" height="916" />
     </state>
-    <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2/0.0.1918.916@0.0.1918.916" timestamp="1615371277525" />
+    <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2/0.0.1918.916@0.0.1918.916" timestamp="1615371848167" />
     <state x="355" y="77" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615371569558" />
     <state x="355" y="68" width="1200" height="785" key="Vcs.Push.Dialog.v2/0.0.1920.917@0.0.1920.917" timestamp="1615305123525" />
     <state x="683" y="341" width="552" height="241" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615371199741">
@@ -383,9 +352,14 @@
       <screen x="0" y="0" width="1918" height="916" />
     </state>
     <state x="564" y="312" width="790" height="299" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1918.916@0.0.1918.916" timestamp="1615370862609" />
-    <state x="493" y="0" width="921" height="916" key="new project wizard" timestamp="1615364901521">
-      <screen x="0" y="0" width="1918" height="916" />
+    <state x="494" y="0" width="921" height="916" key="new project wizard" timestamp="1615404160885">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="0" width="921" height="916" key="new project wizard/0.0.1918.916@0.0.1918.916" timestamp="1615364901521" />
+    <state x="494" y="0" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615404160885" />
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1615406757680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615406757680" />
   </component>
 </project>

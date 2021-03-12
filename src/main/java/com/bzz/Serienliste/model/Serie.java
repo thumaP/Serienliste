@@ -1,14 +1,31 @@
 package com.bzz.Serienliste.model;
 
+import com.bzz.Serienliste.data.DataHandler;
+
+import java.util.ArrayList;
+
 public class Serie {
     private int seriesID;
-    private String kategorie;
+    private Kategorie kategorie;
     private String title;
     private String desc;
     private int anzFolgen;
     private int imgURL;
 
-    public String getKategorie() {
+    public Serie(Kategorie kategorie, String title, String desc, int anzFolgen, int rating, boolean watched) {
+        this.kategorie = kategorie;
+        this.title = title;
+        this.desc = desc;
+        this.anzFolgen = anzFolgen;
+        this.rating = rating;
+        this.watched = watched;
+    }
+
+    public void saveSerie(ArrayList arrayList, Serie serie) {
+        arrayList.add(serie);
+    }
+
+    public Kategorie getKategorie() {
         return kategorie;
     }
 
@@ -20,7 +37,7 @@ public class Serie {
         this.seriesID = seriesID;
     }
 
-    public void setKategorie(String kategorie) {
+    public void setKategorie(Kategorie kategorie) {
         this.kategorie = kategorie;
     }
 
@@ -61,6 +78,12 @@ public class Serie {
     }
 
     public void setRating(int rating) {
+        if(rating >= 10) {
+            rating = 10;
+        }
+        if(rating <= 1) {
+            rating = 1;
+        }
         this.rating = rating;
     }
 
